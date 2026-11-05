@@ -1,0 +1,330 @@
+[
+  {
+    "id": "power-of-the-kraken-1",
+    "name": "Power of the Kraken 1",
+    "category": "Mythology",
+    "image": "./assets/games/power-of-the-kraken-1-320.webp",
+    "imageSmall": "./assets/games/power-of-the-kraken-1-128.webp",
+    "imageLarge": "./assets/games/power-of-the-kraken-1-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "super-ace-1",
+    "name": "Super Ace 1",
+    "category": "Cards",
+    "image": "./assets/games/super-ace-1-320.webp",
+    "imageSmall": "./assets/games/super-ace-1-128.webp",
+    "imageLarge": "./assets/games/super-ace-1-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "lucky-gems-500",
+    "name": "Lucky Gems 500",
+    "category": "Classics",
+    "image": "./assets/games/lucky-gems-500-320.webp",
+    "imageSmall": "./assets/games/lucky-gems-500-128.webp",
+    "imageLarge": "./assets/games/lucky-gems-500-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "wild-bounty-showdown",
+    "name": "Wild Bounty Showdown",
+    "category": "Adventure",
+    "image": "./assets/games/wild-bounty-showdown-320.webp",
+    "imageSmall": "./assets/games/wild-bounty-showdown-128.webp",
+    "imageLarge": "./assets/games/wild-bounty-showdown-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "fortune-gems-500",
+    "name": "Fortune Gems 500",
+    "category": "Classics",
+    "image": "./assets/games/fortune-gems-500-320.webp",
+    "imageSmall": "./assets/games/fortune-gems-500-128.webp",
+    "imageLarge": "./assets/games/fortune-gems-500-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "super-ace-deluxe",
+    "name": "Super Ace Deluxe",
+    "category": "Cards",
+    "image": "./assets/games/super-ace-deluxe-320.webp",
+    "imageSmall": "./assets/games/super-ace-deluxe-128.webp",
+    "imageLarge": "./assets/games/super-ace-deluxe-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "wild-ape",
+    "name": "Wild Ape",
+    "category": "Animals",
+    "image": "./assets/games/wild-ape-320.webp",
+    "imageSmall": "./assets/games/wild-ape-128.webp",
+    "imageLarge": "./assets/games/wild-ape-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "jungle-delight",
+    "name": "Jungle Delight",
+    "category": "Animals",
+    "image": "./assets/games/jungle-delight-320.webp",
+    "imageSmall": "./assets/games/jungle-delight-128.webp",
+    "imageLarge": "./assets/games/jungle-delight-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "ganesha-gold",
+    "name": "Ganesha Gold",
+    "category": "Mythology",
+    "image": "./assets/games/ganesha-gold-320.webp",
+    "imageSmall": "./assets/games/ganesha-gold-128.webp",
+    "imageLarge": "./assets/games/ganesha-gold-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "mahjong-ways-2",
+    "name": "Mahjong Ways 2",
+    "category": "Classics",
+    "image": "./assets/games/mahjong-ways-2-320.webp",
+    "imageSmall": "./assets/games/mahjong-ways-2-128.webp",
+    "imageLarge": "./assets/games/mahjong-ways-2-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "gems-4-fortune",
+    "name": "Gems 4 Fortune",
+    "category": "Classics",
+    "image": "./assets/games/gems-4-fortune-320.webp",
+    "imageSmall": "./assets/games/gems-4-fortune-128.webp",
+    "imageLarge": "./assets/games/gems-4-fortune-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "fever-777",
+    "name": "Fever 777",
+    "category": "Classics",
+    "image": "./assets/games/fever-777-320.webp",
+    "imageSmall": "./assets/games/fever-777-128.webp",
+    "imageLarge": "./assets/games/fever-777-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "power-of-the-kraken-2",
+    "name": "Power of the Kraken 2",
+    "category": "Mythology",
+    "image": "./assets/games/power-of-the-kraken-2-320.webp",
+    "imageSmall": "./assets/games/power-of-the-kraken-2-128.webp",
+    "imageLarge": "./assets/games/power-of-the-kraken-2-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "thor-god-of-lightning",
+    "name": "Thor: God of Lightning",
+    "category": "Mythology",
+    "image": "./assets/games/thor-god-of-lightning-320.webp",
+    "imageSmall": "./assets/games/thor-god-of-lightning-128.webp",
+    "imageLarge": "./assets/games/thor-god-of-lightning-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "double-nugget-2",
+    "name": "Double Nugget 2",
+    "category": "Adventure",
+    "image": "./assets/games/double-nugget-2-320.webp",
+    "imageSmall": "./assets/games/double-nugget-2-128.webp",
+    "imageLarge": "./assets/games/double-nugget-2-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "hip-hop-panda",
+    "name": "Hip Hop Panda",
+    "category": "Animals",
+    "image": "./assets/games/hip-hop-panda-320.webp",
+    "imageSmall": "./assets/games/hip-hop-panda-128.webp",
+    "imageLarge": "./assets/games/hip-hop-panda-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "box-of-books",
+    "name": "Box of Books",
+    "category": "Animals",
+    "image": "./assets/games/box-of-books-320.webp",
+    "imageSmall": "./assets/games/box-of-books-128.webp",
+    "imageLarge": "./assets/games/box-of-books-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "three-crazy-piggies",
+    "name": "Three Crazy Piggies",
+    "category": "Animals",
+    "image": "./assets/games/three-crazy-piggies-320.webp",
+    "imageSmall": "./assets/games/three-crazy-piggies-128.webp",
+    "imageLarge": "./assets/games/three-crazy-piggies-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "the-pride-lands",
+    "name": "The Pride Lands",
+    "category": "Adventure",
+    "image": "./assets/games/the-pride-lands-320.webp",
+    "imageSmall": "./assets/games/the-pride-lands-128.webp",
+    "imageLarge": "./assets/games/the-pride-lands-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "nightfall-hunting",
+    "name": "Nightfall Hunting",
+    "category": "Adventure",
+    "image": "./assets/games/nightfall-hunting-320.webp",
+    "imageSmall": "./assets/games/nightfall-hunting-128.webp",
+    "imageLarge": "./assets/games/nightfall-hunting-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "poseidon-2",
+    "name": "Poseidon 2",
+    "category": "Mythology",
+    "image": "./assets/games/poseidon-2-320.webp",
+    "imageSmall": "./assets/games/poseidon-2-128.webp",
+    "imageLarge": "./assets/games/poseidon-2-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "wild-bandito",
+    "name": "Wild Bandito",
+    "category": "Adventure",
+    "image": "./assets/games/wild-bandito-320.webp",
+    "imageSmall": "./assets/games/wild-bandito-128.webp",
+    "imageLarge": "./assets/games/wild-bandito-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "power-of-the-kraken-3",
+    "name": "Power of the Kraken 3",
+    "category": "Mythology",
+    "image": "./assets/games/power-of-the-kraken-3-320.webp",
+    "imageSmall": "./assets/games/power-of-the-kraken-3-128.webp",
+    "imageLarge": "./assets/games/power-of-the-kraken-3-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "fiery-fortune",
+    "name": "Fiery Fortune",
+    "category": "Adventure",
+    "image": "./assets/games/fiery-fortune-320.webp",
+    "imageSmall": "./assets/games/fiery-fortune-128.webp",
+    "imageLarge": "./assets/games/fiery-fortune-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "king-of-olympus",
+    "name": "King of Olympus",
+    "category": "Mythology",
+    "image": "./assets/games/king-of-olympus-320.webp",
+    "imageSmall": "./assets/games/king-of-olympus-128.webp",
+    "imageLarge": "./assets/games/king-of-olympus-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "lion-saga-odyssey",
+    "name": "Lion Saga Odyssey",
+    "category": "Animals",
+    "image": "./assets/games/lion-saga-odyssey-320.webp",
+    "imageSmall": "./assets/games/lion-saga-odyssey-128.webp",
+    "imageLarge": "./assets/games/lion-saga-odyssey-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "champions",
+    "name": "Champions",
+    "category": "Adventure",
+    "image": "./assets/games/champions-320.webp",
+    "imageSmall": "./assets/games/champions-128.webp",
+    "imageLarge": "./assets/games/champions-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "special-ways-6",
+    "name": "Special Ways 6",
+    "category": "Classics",
+    "image": "./assets/games/special-ways-6-320.webp",
+    "imageSmall": "./assets/games/special-ways-6-128.webp",
+    "imageLarge": "./assets/games/special-ways-6-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "wild-paradise",
+    "name": "Wild Paradise",
+    "category": "Adventure",
+    "image": "./assets/games/wild-paradise-320.webp",
+    "imageSmall": "./assets/games/wild-paradise-128.webp",
+    "imageLarge": "./assets/games/wild-paradise-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "money-pot",
+    "name": "Money Pot",
+    "category": "Classics",
+    "image": "./assets/games/money-pot-320.webp",
+    "imageSmall": "./assets/games/money-pot-128.webp",
+    "imageLarge": "./assets/games/money-pot-640.webp",
+    "artworkCredit": "AI-recreated game cover.",
+    "confidence": "review",
+    "note": "Infinity-like mark follows title; omitted from normalized name."
+  },
+  {
+    "id": "volcanic-tiki",
+    "name": "Volcanic Tiki",
+    "category": "Adventure",
+    "image": "./assets/games/volcanic-tiki-320.webp",
+    "imageSmall": "./assets/games/volcanic-tiki-128.webp",
+    "imageLarge": "./assets/games/volcanic-tiki-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "super-fire-link",
+    "name": "Super Fire Link",
+    "category": "Adventure",
+    "image": "./assets/games/super-fire-link-320.webp",
+    "imageSmall": "./assets/games/super-fire-link-128.webp",
+    "imageLarge": "./assets/games/super-fire-link-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "casino-night",
+    "name": "Casino Night",
+    "category": "Cards",
+    "image": "./assets/games/casino-night-320.webp",
+    "imageSmall": "./assets/games/casino-night-128.webp",
+    "imageLarge": "./assets/games/casino-night-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "dabanggg",
+    "name": "Dabanggg",
+    "category": "Adventure",
+    "image": "./assets/games/dabanggg-320.webp",
+    "imageSmall": "./assets/games/dabanggg-128.webp",
+    "imageLarge": "./assets/games/dabanggg-640.webp",
+    "artworkCredit": "AI-recreated game cover.",
+    "confidence": "review",
+    "note": "Stylized DABANGGG; verify exact repeated letter count against original catalog."
+  },
+  {
+    "id": "sugar-bang-bang",
+    "name": "Sugar Bang Bang",
+    "category": "Classics",
+    "image": "./assets/games/sugar-bang-bang-320.webp",
+    "imageSmall": "./assets/games/sugar-bang-bang-128.webp",
+    "imageLarge": "./assets/games/sugar-bang-bang-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  },
+  {
+    "id": "doomsday-rampage",
+    "name": "Doomsday Rampage",
+    "category": "Adventure",
+    "image": "./assets/games/doomsday-rampage-320.webp",
+    "imageSmall": "./assets/games/doomsday-rampage-128.webp",
+    "imageLarge": "./assets/games/doomsday-rampage-640.webp",
+    "artworkCredit": "AI-recreated game cover."
+  }
+]

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jaiho91rtp.com/sitemap.xml

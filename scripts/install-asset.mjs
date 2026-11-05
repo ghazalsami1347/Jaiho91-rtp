@@ -1,0 +1,26 @@
+import { readFile, writeFile, copyFile, mkdir, rename } from 'node:fs/promises';
+import { resolve, extname } from 'node:path';
+import {prepare} from './prepare.mjs';
+const [id,source,status='screenshot-remake-v1']=process.argv.slice(2);
+if(!id||!source) throw new Error('Usage: node scripts/install-asset.mjs <game-id> <image-path> [status]');
+const file=resolve('games.json');
+const catalog=JSON.parse(await readFile(file,'utf8'));
+const game=catalog.find(g=>g.id===id);
+if(!game) throw new Error(`Unknown game ID: ${id}`);
+const extension=extname(source).toLowerCase();
+if(!['.png','.webp','.jpg','.jpeg'].includes(extension)) throw new Error('Use PNG, WebP or JPEG.');
+const image=await readFile(source);
+if(!image.length||image.length>20*1024*1024) throw new Error('Image must be nonempty and smaller than 20 MB.');
+await mkdir('assets/games',{recursive:true});
+// Versioned filenames retain earlier iterations rather than overwriting them.
+const version=Date.now();
+const name=`${id}-${version}${extension}`;
+await copyFile(source,resolve('assets/games',name));
+game.image=`./assets/games/${name}`;
+game.imageSmall=game.image;
+game.imageLarge=game.image;
+game.assetStatus=status;
+await writeFile(file+'.tmp',JSON.stringify(catalog,null,2)+'\n');
+await rename(file+'.tmp',file);
+await prepare();
+console.log(`Installed asset for ${game.name}: ${game.image}`);

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "power-of-the-kraken-1",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. The large upper-left game tile: stern green muscular sea god, curling tentacle horns, teal ocean, gold armor with turquoise gems. Exact title \"POWER OF THE KRAKEN 1\" at bottom.",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083033).png"
+  },
+  {
+    "id": "super-ace-1",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. The large upper-right game tile: red and gold jester crown, playing ace card, rich emerald backdrop. Exact title \"SUPER ACE 1\" at bottom.",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083033).png"
+  },
+  {
+    "id": "lucky-gems-500",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. The large lower-left game tile: glowing gold Chinese guardian dragon face with violet eyes, luminous green 500. Exact title \"500 LUCKY GEMS\" at bottom.",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083033).png"
+  },
+  {
+    "id": "wild-bounty-showdown",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. The large lower-right game cover: young brown-haired female frontier sheriff, white cowboy hat and star, blue eyes, revolver, sunlit canyon. Title \"WILD BOUNTY SHOWDOWN\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083033).png"
+  },
+  {
+    "id": "fortune-gems-500",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Jaiho91 Picks grid row 1 column 1: golden Chinese guardian lion face with red accents, red glowing background, large gold 500. Title \"FORTUNE GEMS 500\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083036).png"
+  },
+  {
+    "id": "super-ace-deluxe",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 1 column 2: large red and gold jester crown over vivid blue background and gold coins. Title \"SUPER ACE DELUXE\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083036).png"
+  },
+  {
+    "id": "wild-ape",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 1 column 3: grinning cartoon chimpanzee wearing black baseball cap and striped shirt, neon violet lights. Title \"WILD APE\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083036).png"
+  },
+  {
+    "id": "jungle-delight",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 1 column 4: smiling big-eyed raccoon with black eye mask, lush emerald bamboo jungle. Title \"JUNGLE DELIGHT\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083036).png"
+  },
+  {
+    "id": "ganesha-gold",
+    "prompt": "Use case: stylized-concept. Create one respectful square cover illustration titled \"GANESHA GOLD\". A serene adult elephant-headed Ganesha seated in a golden temple, fully dressed in ornate red and gold traditional garments, jeweled gold crown, warm amber lighting. Friendly dignified face, polished colorful 3D illustrated game-cover aesthetic with readable shapes at small size. Exact title \"GANESHA GOLD\" in sculpted gold lettering along the lower edge. Full bleed, no frame, no app interface, no chips, no badges, no numbers or payout claims. No nudity, no weapons, no violence.",
+    "mode": "Built-in image generation",
+    "reference": null
+  },
+  {
+    "id": "mahjong-ways-2",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 2 column 2: ivory mahjong tiles with red and green Chinese marks, gold dragon curled under tiles, warm gold backdrop. Title \"MAHJONG WAYS 2\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083036).png"
+  },
+  {
+    "id": "gems-4-fortune",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 2 column 3: young Egyptian queen wearing gold pharaoh headdress and red gems, warm torchlit tomb. Title \"GEMS 4 FORTUNE\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083036).png"
+  },
+  {
+    "id": "fever-777",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 2 column 4: vibrant casino prize wheel, red gold warm glow, bold shiny triple seven motif. Title \"FEVER 777\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083036).png"
+  },
+  {
+    "id": "power-of-the-kraken-2",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 3 column 1: golden pirate skull wearing dark green tricorn hat, stormy turquoise sea. Preserve skull pirate character, not green humanoid. Title \"POWER OF THE KRAKEN 2\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083036).png"
+  },
+  {
+    "id": "thor-god-of-lightning",
+    "prompt": "Use case: stylized-concept. Create one square illustrated fantasy cover for \"THOR: GOD OF LIGHTNING\". A friendly adult bearded Norse thunder god in a winged helmet and complete heavy gold-and-silver armor covering his chest and body, electric blue lightning in the sky. Chest-up portrait, cinematic polished 3D game-cover art. Exact title \"THOR\" in gold block lettering and subtitle \"GOD OF LIGHTNING\" at the lower edge. Full bleed, no frame, no app interface, no badges, no payout claims. No nudity, no injury, no violence or weapon.",
+    "mode": "Built-in image generation",
+    "reference": null
+  },
+  {
+    "id": "double-nugget-2",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 3 column 3: cheerful red-bearded gold miner, yellow hard hat, amber mine lanterns and gold nuggets. Title \"DOUBLE NUGGET 2\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083036).png"
+  },
+  {
+    "id": "hip-hop-panda",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 3 column 4: cool smiling panda, black top hat with gold band, large silver chain, neon city. Title \"HIP HOP PANDA\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083036).png"
+  },
+  {
+    "id": "box-of-books",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 4 column 1: playful smiling block-headed ancient king in gold Egyptian crown, books and gold ornaments. Title \"BOX OF BOOKS\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083036).png"
+  },
+  {
+    "id": "three-crazy-piggies",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 4 column 2: mischievous smiling pink pig wearing black sunglasses, straw hair and farm background. Title \"THREE CRAZY PIGGIES\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083036).png"
+  },
+  {
+    "id": "the-pride-lands",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 4 column 3: majestic pinkish African elephant with ivory tusks in warm savanna sunset. Keep elephant, not lion. Title \"THE PRIDE LANDS\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083036).png"
+  },
+  {
+    "id": "nightfall-hunting",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 4 column 4: smiling dark-haired nighttime hunter wearing broad dark blue hat and scarf, moonlit blue woodland. Title \"NIGHTFALL HUNTING\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083036).png"
+  },
+  {
+    "id": "poseidon-2",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 1 column 1: stern sea king with flowing blue-white beard, gold crown and trident, crashing turquoise ocean. Title \"POSEIDON 2\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083037).png"
+  },
+  {
+    "id": "wild-bandito",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 1 column 2: grinning orange Mexican skeleton in large purple sombrero, violet night with warm lights. Title \"WILD BANDITO\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083037).png"
+  },
+  {
+    "id": "power-of-the-kraken-3",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 1 column 3: green muscular sea god with curling tentacle horns, gold and turquoise armor, frothing ocean; version 3. Title \"POWER OF THE KRAKEN 3\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083037).png"
+  },
+  {
+    "id": "fiery-fortune",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 1 column 4: mischievous round red cartoon devil with horns, huge toothy grin, pitchfork and yellow flames. Title \"FIERY FORTUNE\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083037).png"
+  },
+  {
+    "id": "king-of-olympus",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 2 column 1: stern Zeus-like elderly white-haired and white-bearded god with blue eyes, lightning and purple gold architecture. Title \"KING OF OLYMPUS\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083037).png"
+  },
+  {
+    "id": "lion-saga-odyssey",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 2 column 2: affectionate adult lioness with smiling young lion cub, warm African savanna sunlight. Title \"LION SAGA ODYSSEY\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083037).png"
+  },
+  {
+    "id": "champions",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 2 column 3: smiling young brown-haired football player wearing bright yellow jersey in sunny football stadium. Title \"CHAMPIONS\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083037).png"
+  },
+  {
+    "id": "special-ways-6",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 2 column 4: blue and silver casino slot machine showing three red 7 symbols, sparkling violet blue stage. Title \"SPECIAL WAYS 6\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083037).png"
+  },
+  {
+    "id": "wild-paradise",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 3 column 1: roaring powerful male lion with deep orange mane amid lush green tropical foliage. Title \"WILD PARADISE\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083037).png"
+  },
+  {
+    "id": "money-pot",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 3 column 2: smiling Chinese wealth god with gold crown and ornate red gold robe, gold coins, lucky festive light. Title \"MONEY POT\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083037).png"
+  },
+  {
+    "id": "volcanic-tiki",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 3 column 3: expressive carved wooden tiki mask with big blue eyes and toothy smile, orange lava flames and tropical jungle. Title \"VOLCANIC TIKI\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083037).png"
+  },
+  {
+    "id": "super-fire-link",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 3 column 4: monumental red glossy lucky 7 framed by gold, molten amber glow and orange flames. Title \"SUPER FIRE LINK\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083037).png"
+  },
+  {
+    "id": "casino-night",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 4 column 1: suave smiling dark-haired man in black tuxedo, gold casino chandelier background. Title \"CASINO NIGHT\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083037).png"
+  },
+  {
+    "id": "dabanggg",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 4 column 2: charismatic black-haired man with mustache adjusting dark aviator sunglasses, warm Indian action-film palette. Title exactly \"DABANGGG\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083037).png"
+  },
+  {
+    "id": "sugar-bang-bang",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 4 column 3: adorable smiling round orange candy mascot with sparkling big eyes amid colorful sweets and lollipops. Title \"SUGAR BANG BANG\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083037).png"
+  },
+  {
+    "id": "doomsday-rampage",
+    "prompt": "Use case: stylized-concept. Asset type: one square game cover for a mobile-first Jaiho91 demo RTP catalog. Recreate ONLY the specified game tile from the supplied screenshot reference as a clean, standalone high-quality square illustration, closely preserving its character, colors, composition and title. Full-bleed polished 3D game artwork with strong readable shapes and precise display lettering. Remove the silver rounded frame, download badge, Hot/New badges, app UI and overlays. Do not include RTP values, site UI, watermarks or unrelated game tiles. One image, not a sheet. Grid row 4 column 4: grinning purple-haired female post-apocalyptic adventurer with goggles on head, warm fiery sunset, stylized playful character. Title \"DOOMSDAY RAMPAGE\".",
+    "mode": "Built-in image generation",
+    "reference": "image(20261103-083037).png"
+  }
+]

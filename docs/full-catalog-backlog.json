@@ -1,0 +1,2960 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "2026-11-03",
+  "evidence": {
+    "availableScreenshots": 10,
+    "requestedScreenshots": 11,
+    "originalLogoAvailable": true,
+    "completeness": "Only readable titles from the 10 recovered screenshots. One screenshot is unavailable. The user supplied the original Jaiho91 logo in the revision. Obscured, unreadable tiles are not invented.",
+    "excluded": [
+      "Jackpot Lotto (banner feature)",
+      "Bank",
+      "Lucky Wheel",
+      "Refer & Earn",
+      "Bonus",
+      "navigation icons",
+      "Unreadable tiles under navigation on 083033; partially hidden lower row on 083102"
+    ]
+  },
+  "themes": [
+    "Mythology",
+    "Animals",
+    "Cards",
+    "Classics",
+    "Adventure"
+  ],
+  "games": [
+    {
+      "id": "power-of-the-kraken-1",
+      "name": "Power of the Kraken 1",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083033).png",
+          "row": 1,
+          "column": 1,
+          "section": "large featured grid"
+        }
+      ]
+    },
+    {
+      "id": "super-ace-1",
+      "name": "Super Ace 1",
+      "aliases": [],
+      "theme": "Cards",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083033).png",
+          "row": 1,
+          "column": 2,
+          "section": "large featured grid"
+        }
+      ]
+    },
+    {
+      "id": "lucky-gems-500",
+      "name": "Lucky Gems 500",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083033).png",
+          "row": 1,
+          "column": 3,
+          "section": "large featured grid"
+        }
+      ]
+    },
+    {
+      "id": "wild-bounty-showdown",
+      "name": "Wild Bounty Showdown",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083033).png",
+          "row": 1,
+          "column": 4,
+          "section": "large featured grid"
+        }
+      ]
+    },
+    {
+      "id": "fortune-gems-500",
+      "name": "Fortune Gems 500",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083036).png",
+          "row": 1,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "super-ace-deluxe",
+      "name": "Super Ace Deluxe",
+      "aliases": [],
+      "theme": "Cards",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083036).png",
+          "row": 1,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "wild-ape",
+      "name": "Wild Ape",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083036).png",
+          "row": 1,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "jungle-delight",
+      "name": "Jungle Delight",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083036).png",
+          "row": 1,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "ganesha-gold",
+      "name": "Ganesha Gold",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083036).png",
+          "row": 2,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "mahjong-ways-2",
+      "name": "Mahjong Ways 2",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083036).png",
+          "row": 2,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "gems-4-fortune",
+      "name": "Gems 4 Fortune",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083036).png",
+          "row": 2,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "fever-777",
+      "name": "Fever 777",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083036).png",
+          "row": 2,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "power-of-the-kraken-2",
+      "name": "Power of the Kraken 2",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083036).png",
+          "row": 3,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "thor-god-of-lightning",
+      "name": "Thor: God of Lightning",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083036).png",
+          "row": 3,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "double-nugget-2",
+      "name": "Double Nugget 2",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083036).png",
+          "row": 3,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "hip-hop-panda",
+      "name": "Hip Hop Panda",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083036).png",
+          "row": 3,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "box-of-books",
+      "name": "Box of Books",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083036).png",
+          "row": 4,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "three-crazy-piggies",
+      "name": "Three Crazy Piggies",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083036).png",
+          "row": 4,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "the-pride-lands",
+      "name": "The Pride Lands",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083036).png",
+          "row": 4,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "nightfall-hunting",
+      "name": "Nightfall Hunting",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083036).png",
+          "row": 4,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "poseidon-2",
+      "name": "Poseidon 2",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083036).png",
+          "row": 5,
+          "column": 1,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083037).png",
+          "row": 1,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "wild-bandito",
+      "name": "Wild Bandito",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083036).png",
+          "row": 5,
+          "column": 2,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083037).png",
+          "row": 1,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "power-of-the-kraken-3",
+      "name": "Power of the Kraken 3",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083036).png",
+          "row": 5,
+          "column": 3,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083037).png",
+          "row": 1,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "fiery-fortune",
+      "name": "Fiery Fortune",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083036).png",
+          "row": 5,
+          "column": 4,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083037).png",
+          "row": 1,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "king-of-olympus",
+      "name": "King of Olympus",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083037).png",
+          "row": 2,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "lion-saga-odyssey",
+      "name": "Lion Saga Odyssey",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083037).png",
+          "row": 2,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "champions",
+      "name": "Champions",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083037).png",
+          "row": 2,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "special-ways-6",
+      "name": "Special Ways 6",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083037).png",
+          "row": 2,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "wild-paradise",
+      "name": "Wild Paradise",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083037).png",
+          "row": 3,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "money-pot",
+      "name": "Money Pot",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "review",
+      "note": "Infinity-like mark follows title; omitted from normalized name.",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083037).png",
+          "row": 3,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "volcanic-tiki",
+      "name": "Volcanic Tiki",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083037).png",
+          "row": 3,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "super-fire-link",
+      "name": "Super Fire Link",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083037).png",
+          "row": 3,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "casino-night",
+      "name": "Casino Night",
+      "aliases": [],
+      "theme": "Cards",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083037).png",
+          "row": 4,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "dabanggg",
+      "name": "Dabanggg",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "review",
+      "note": "Stylized DABANGGG; verify exact repeated letter count against original catalog.",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083037).png",
+          "row": 4,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "sugar-bang-bang",
+      "name": "Sugar Bang Bang",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083037).png",
+          "row": 4,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "doomsday-rampage",
+      "name": "Doomsday Rampage",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083037).png",
+          "row": 4,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "infected-zone",
+      "name": "Infected Zone",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083037).png",
+          "row": 5,
+          "column": 1,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083040).png",
+          "row": 1,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "safari-mystery",
+      "name": "Safari Mystery",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083037).png",
+          "row": 5,
+          "column": 2,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083040).png",
+          "row": 1,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "golden-express",
+      "name": "Golden Express",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083037).png",
+          "row": 5,
+          "column": 3,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083040).png",
+          "row": 1,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "big-stick-lumberjack",
+      "name": "Big Stick Lumberjack",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083037).png",
+          "row": 5,
+          "column": 4,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083040).png",
+          "row": 1,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "coin-volcano",
+      "name": "Coin Volcano",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083040).png",
+          "row": 2,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "darkness",
+      "name": "Darkness",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083040).png",
+          "row": 2,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "wukong",
+      "name": "Wukong",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083040).png",
+          "row": 2,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "cursed-crypt",
+      "name": "Cursed Crypt",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083040).png",
+          "row": 2,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "evil-eyes",
+      "name": "Evil Eyes",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083040).png",
+          "row": 3,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "fortune-coins-hit-the-cash",
+      "name": "Fortune Coins: Hit the Cash",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083040).png",
+          "row": 3,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "jackpot-joker",
+      "name": "Jackpot Joker",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083040).png",
+          "row": 3,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "gemstones-gold",
+      "name": "Gemstones Gold",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083040).png",
+          "row": 3,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "mahjong-wins-3-black-scatter",
+      "name": "Mahjong Wins 3: Black Scatter",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083040).png",
+          "row": 4,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "fortune-jungle",
+      "name": "Fortune Jungle",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083040).png",
+          "row": 4,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "lucky-jaguar",
+      "name": "Lucky Jaguar",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083040).png",
+          "row": 4,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "fire-toad",
+      "name": "Fire Toad",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083040).png",
+          "row": 4,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "stormborn",
+      "name": "Stormborn",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083040).png",
+          "row": 5,
+          "column": 1,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083043).png",
+          "row": 1,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "dragon-hatch-4",
+      "name": "Dragon Hatch 4",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083040).png",
+          "row": 5,
+          "column": 2,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083043).png",
+          "row": 1,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "brute-force-alien-onslaught",
+      "name": "Brute Force: Alien Onslaught",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083040).png",
+          "row": 5,
+          "column": 3,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083043).png",
+          "row": 1,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "dragon-fortune",
+      "name": "Dragon Fortune",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083040).png",
+          "row": 5,
+          "column": 4,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083043).png",
+          "row": 1,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "samba-drums",
+      "name": "Samba Drums",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083043).png",
+          "row": 2,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "boxing-king",
+      "name": "Boxing King",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083043).png",
+          "row": 2,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "casino-fortunes",
+      "name": "Casino Fortunes",
+      "aliases": [],
+      "theme": "Cards",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083043).png",
+          "row": 2,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "wild-ace",
+      "name": "Wild Ace",
+      "aliases": [],
+      "theme": "Cards",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083043).png",
+          "row": 2,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "sugar-rush-1000",
+      "name": "Sugar Rush 1000",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083043).png",
+          "row": 3,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "ace-ultra-1",
+      "name": "Ace Ultra 1",
+      "aliases": [],
+      "theme": "Cards",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083043).png",
+          "row": 3,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "phantom-mustang",
+      "name": "Phantom Mustang",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083043).png",
+          "row": 3,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "elf-archer",
+      "name": "Elf Archer",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083043).png",
+          "row": 3,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "fortunate-jaguar",
+      "name": "Fortunate Jaguar",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083043).png",
+          "row": 4,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "deal-with-death",
+      "name": "Deal with Death",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "review",
+      "note": "Small overlapping title lettering; normalized as Deal with Death.",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083043).png",
+          "row": 4,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "bear-blast",
+      "name": "Bear Blast",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083043).png",
+          "row": 4,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "pinata-wins",
+      "name": "Pinata Wins",
+      "aliases": [
+        "Piñata Wins"
+      ],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083043).png",
+          "row": 4,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "jurassic-world",
+      "name": "Jurassic World",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083043).png",
+          "row": 5,
+          "column": 1,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083046).png",
+          "row": 1,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "baking-master",
+      "name": "Baking Master",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083043).png",
+          "row": 5,
+          "column": 2,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083046).png",
+          "row": 1,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "dark-hunting",
+      "name": "Dark Hunting",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083043).png",
+          "row": 5,
+          "column": 3,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083046).png",
+          "row": 1,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "freak-show-revelation",
+      "name": "Freak Show: Revelation",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083043).png",
+          "row": 5,
+          "column": 4,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083046).png",
+          "row": 1,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "gopnik",
+      "name": "Gopnik",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083046).png",
+          "row": 2,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "pinata-frenzy",
+      "name": "Pinata Frenzy",
+      "aliases": [
+        "Piñata Frenzy"
+      ],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083046).png",
+          "row": 2,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "the-chronosphere",
+      "name": "The Chronosphere",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083046).png",
+          "row": 2,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "space-orbs",
+      "name": "Space Orbs",
+      "aliases": [],
+      "theme": "Cards",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083046).png",
+          "row": 2,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "maya-777",
+      "name": "Maya 777",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083046).png",
+          "row": 3,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "ace-ultra-deluxe",
+      "name": "Ace Ultra Deluxe",
+      "aliases": [],
+      "theme": "Cards",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083046).png",
+          "row": 3,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "tutan-kha-boom",
+      "name": "Tutan Kha-boom",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083046).png",
+          "row": 3,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "dragon-slayer",
+      "name": "Dragon Slayer",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083046).png",
+          "row": 3,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "fortune-lakshmi",
+      "name": "Fortune Lakshmi",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083046).png",
+          "row": 4,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "roar-of-flames",
+      "name": "Roar of Flames",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083046).png",
+          "row": 4,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "shark-hunt",
+      "name": "Shark Hunt",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083046).png",
+          "row": 4,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "bonanza-banana",
+      "name": "Bonanza Banana",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083046).png",
+          "row": 4,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "poker-kingdom",
+      "name": "Poker Kingdom",
+      "aliases": [],
+      "theme": "Cards",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083046).png",
+          "row": 5,
+          "column": 1,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083049).png",
+          "row": 1,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "great-gold-grab",
+      "name": "Great Gold Grab",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083046).png",
+          "row": 5,
+          "column": 2,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083049).png",
+          "row": 1,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "serpent-crush",
+      "name": "Serpent Crush",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083046).png",
+          "row": 5,
+          "column": 3,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083049).png",
+          "row": 1,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "lucky-gems-1000",
+      "name": "Lucky Gems 1000",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083046).png",
+          "row": 5,
+          "column": 4,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083049).png",
+          "row": 1,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "royale-battleground",
+      "name": "Royale Battleground",
+      "aliases": [],
+      "theme": "Cards",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083049).png",
+          "row": 2,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "gold-blitz",
+      "name": "Gold Blitz",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083049).png",
+          "row": 2,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "super-777",
+      "name": "Super 777",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083049).png",
+          "row": 2,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "gems-2-fortune",
+      "name": "Gems 2 Fortune",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083049).png",
+          "row": 2,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "diamond-777",
+      "name": "Diamond 777",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083049).png",
+          "row": 3,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "jackpot-link",
+      "name": "Jackpot Link",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083049).png",
+          "row": 3,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "money-coming",
+      "name": "Money Coming",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083049).png",
+          "row": 3,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "7-deluxe-wheel",
+      "name": "7 Deluxe Wheel",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "review",
+      "note": "Leading stylized 7; title spacing normalized.",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083049).png",
+          "row": 3,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "golden-west",
+      "name": "Golden West",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083049).png",
+          "row": 4,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "sparky-and-shortz-1",
+      "name": "Sparky & Shortz 1",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083049).png",
+          "row": 4,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "archer-1",
+      "name": "Archer 1",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083049).png",
+          "row": 4,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "mythic-deep",
+      "name": "Mythic Deep",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083049).png",
+          "row": 4,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "777",
+      "name": "777",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "review",
+      "note": "Title consists of stylized red sevens; no readable subtitle.",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083049).png",
+          "row": 5,
+          "column": 1,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083057).png",
+          "row": 1,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "flaming-mustang",
+      "name": "Flaming Mustang",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083049).png",
+          "row": 5,
+          "column": 2,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083057).png",
+          "row": 1,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "monkey-fortune-1",
+      "name": "Monkey Fortune 1",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083049).png",
+          "row": 5,
+          "column": 3,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083057).png",
+          "row": 1,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "archer-2",
+      "name": "Archer 2",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083049).png",
+          "row": 5,
+          "column": 4,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083057).png",
+          "row": 1,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "bison-moon",
+      "name": "Bison Moon",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083057).png",
+          "row": 2,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "dragon-hatch-1",
+      "name": "Dragon Hatch 1",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083057).png",
+          "row": 2,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "jackpot-party",
+      "name": "Jackpot Party",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083057).png",
+          "row": 2,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "wolf-moon-link",
+      "name": "Wolf Moon Link",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083057).png",
+          "row": 2,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "monkey-fortune-2",
+      "name": "Monkey Fortune 2",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083057).png",
+          "row": 3,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "golden-bank",
+      "name": "Golden Bank",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083057).png",
+          "row": 3,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "jurassic-kingdom",
+      "name": "Jurassic Kingdom",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083057).png",
+          "row": 3,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "wild-spin-rainbow",
+      "name": "Wild Spin Rainbow",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083057).png",
+          "row": 3,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "poseidon",
+      "name": "Poseidon",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083057).png",
+          "row": 4,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "ace-super-2",
+      "name": "Ace Super 2",
+      "aliases": [],
+      "theme": "Cards",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083057).png",
+          "row": 4,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "chonker-jumble",
+      "name": "Chonker Jumble",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083057).png",
+          "row": 4,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "archer-3",
+      "name": "Archer 3",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083057).png",
+          "row": 4,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "mahjong-ways-1",
+      "name": "Mahjong Ways 1",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083057).png",
+          "row": 5,
+          "column": 1,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083059).png",
+          "row": 1,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "dragon-hatch-2",
+      "name": "Dragon Hatch 2",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083057).png",
+          "row": 5,
+          "column": 2,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083059).png",
+          "row": 1,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "oh-my-girls",
+      "name": "Oh My Girls!",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083057).png",
+          "row": 5,
+          "column": 3,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083059).png",
+          "row": 1,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "power-link",
+      "name": "Power Link",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083057).png",
+          "row": 5,
+          "column": 4,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083059).png",
+          "row": 1,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "ganesha-fortune-2",
+      "name": "Ganesha Fortune 2",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083059).png",
+          "row": 2,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "fortune-tiger",
+      "name": "Fortune Tiger",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083059).png",
+          "row": 2,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "yakuza-honor",
+      "name": "Yakuza Honor",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083059).png",
+          "row": 2,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "fortune-ox",
+      "name": "Fortune Ox",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083059).png",
+          "row": 2,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "xerxes",
+      "name": "Xerxes",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083059).png",
+          "row": 3,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "gems-6-fortune",
+      "name": "Gems 6 Fortune",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083059).png",
+          "row": 3,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "money-mania",
+      "name": "Money Mania",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083059).png",
+          "row": 3,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "gorgeous-cleopatra",
+      "name": "Gorgeous Cleopatra",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083059).png",
+          "row": 3,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "gems-3-fortune",
+      "name": "Gems 3 Fortune",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083059).png",
+          "row": 4,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "jungle-giant",
+      "name": "Jungle Giant",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083059).png",
+          "row": 4,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "gems-5-fortune",
+      "name": "Gems 5 Fortune",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083059).png",
+          "row": 4,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "bone-fortune",
+      "name": "Bone Fortune",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083059).png",
+          "row": 4,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "starlight-princess",
+      "name": "Starlight Princess",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083059).png",
+          "row": 5,
+          "column": 1,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083102).png",
+          "row": 1,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "mega-bills-2",
+      "name": "Mega Bills 2",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083059).png",
+          "row": 5,
+          "column": 2,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083102).png",
+          "row": 1,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "lamp-of-aladdin",
+      "name": "Lamp of Aladdin",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083059).png",
+          "row": 5,
+          "column": 3,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083102).png",
+          "row": 1,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "jade-empress",
+      "name": "Jade Empress",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083059).png",
+          "row": 5,
+          "column": 4,
+          "section": "main game grid"
+        },
+        {
+          "screenshot": "image(20261103-083102).png",
+          "row": 1,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "scarab-link-cleopatra",
+      "name": "Scarab Link Cleopatra",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083102).png",
+          "row": 2,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "gates-of-olympus",
+      "name": "Gates of Olympus",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083102).png",
+          "row": 2,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "zeus-3",
+      "name": "Zeus 3",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083102).png",
+          "row": 2,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "safari-princess",
+      "name": "Safari Princess",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083102).png",
+          "row": 2,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "zeus-2",
+      "name": "Zeus 2",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083102).png",
+          "row": 3,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "zeus-1",
+      "name": "Zeus 1",
+      "aliases": [],
+      "theme": "Mythology",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083102).png",
+          "row": 3,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "mega-bills-1",
+      "name": "Mega Bills 1",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083102).png",
+          "row": 3,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "mystery-of-the-lamp",
+      "name": "Mystery of the Lamp",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083102).png",
+          "row": 3,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "mega-moneyfrog",
+      "name": "Mega Moneyfrog",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083102).png",
+          "row": 4,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "gems-1-fortune",
+      "name": "Gems 1 Fortune",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083102).png",
+          "row": 4,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "dragon-hatch-3",
+      "name": "Dragon Hatch 3",
+      "aliases": [],
+      "theme": "Animals",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083102).png",
+          "row": 4,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "1000x-dollar",
+      "name": "1000x Dollar",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083102).png",
+          "row": 4,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "aztec-bonanza",
+      "name": "Aztec Bonanza",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083102).png",
+          "row": 5,
+          "column": 1,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "rave-party",
+      "name": "Rave Party",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083102).png",
+          "row": 5,
+          "column": 2,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "the-crypt",
+      "name": "The Crypt",
+      "aliases": [],
+      "theme": "Adventure",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "high",
+      "note": "",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083102).png",
+          "row": 5,
+          "column": 3,
+          "section": "main game grid"
+        }
+      ]
+    },
+    {
+      "id": "crazy-777",
+      "name": "Crazy 777",
+      "aliases": [],
+      "theme": "Classics",
+      "thumbnail": null,
+      "assetStatus": "placeholder",
+      "confidence": "review",
+      "note": "Bottom of title partly obscured by navigation; readable Crazy and sevens.",
+      "sources": [
+        {
+          "screenshot": "image(20261103-083102).png",
+          "row": 5,
+          "column": 4,
+          "section": "main game grid"
+        }
+      ]
+    }
+  ]
+}

@@ -136,6 +136,7 @@ const paths = {
   up: '<path d="M12 20V4m-6 6 6-6 6 6"/>',
   down: '<path d="m6 9 6 6 6-6"/>',
   close: '<path d="m6 6 12 12M18 6 6 18"/>',
+  download: '<path d="M12 4v11m-5-5 5 5 5-5M5 20h14"/>',
   trophy: '<path d="M8 3h8v6a4 4 0 0 1-8 0zm0 2H4v3a4 4 0 0 0 4 4m8-7h4v3a4 4 0 0 1-4 4m-4 1v6m-4 2h8"/>',
   Mythology: '<path d="m14 2-9 12h6l-1 8 9-12h-6z"/>',
   Animals: '<circle cx="6" cy="7" r="2"/><circle cx="11" cy="5" r="2"/><circle cx="17" cy="7" r="2"/><circle cx="20" cy="12" r="1.5"/><path d="M7 15c2-5 6-6 9-2 2 3 3 6 0 7-2 1-3-1-5-1-4 2-8-1-4-4z"/>',

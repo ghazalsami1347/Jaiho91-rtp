@@ -1,7 +1,9 @@
 import {readFile,writeFile} from 'node:fs/promises';
 import {normalizeGames} from '../game-data.js';
+import {TOP_GAME_COUNT} from '../core.js';
 const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function createSeo(config,games){
+  const preview = games.slice(0, TOP_GAME_COUNT);
   const site=new URL(config.siteUrl);
   if(site.protocol!=='https:'||site.search||site.hash||site.username||site.password)throw Error('Set siteUrl to the public HTTPS site root, without query strings or fragments.');
   if(!site.pathname.endsWith('/'))site.pathname+='/';
@@ -15,7 +17,7 @@ export function createSeo(config,games){
       {'@type':'WebSite','@id':canonical+'#website',url:canonical,name:config.siteName,inLanguage:config.language,description:config.description},
       {'@type':'ImageObject','@id':canonical+'#share-image',url:image,width:1200,height:630,caption:config.shareImageAlt},
       {'@type':'CollectionPage','@id':canonical+'#page',url:canonical,name:config.title,description:config.description,inLanguage:config.language,isPartOf:{'@id':canonical+'#website'},primaryImageOfPage:{'@id':canonical+'#share-image'},mainEntity:{'@id':canonical+'#games'}},
-      {'@type':'ItemList','@id':canonical+'#games',name:'Jaiho91 game list',numberOfItems:games.length,itemListOrder:'https://schema.org/ItemListUnordered',itemListElement:games.map((g,index)=>({'@type':'ListItem',position:index+1,name:g.name,url:canonical+'#game-'+g.id,...(g.thumbnail?{image:new URL(g.thumbnail,canonical).href}:{})}))}
+      {'@type':'ItemList','@id':canonical+'#games',name:'Jaiho91 game preview',numberOfItems:preview.length,itemListOrder:'https://schema.org/ItemListUnordered',itemListElement:preview.map((g,index)=>({'@type':'ListItem',position:index+1,name:g.name,url:canonical+'#game-'+g.id,...(g.thumbnail?{image:new URL(g.thumbnail,canonical).href}:{})}))}
     ]
   };
   const head=[
@@ -31,7 +33,7 @@ export function createSeo(config,games){
     meta('twitter:image',image),meta('twitter:image:alt',config.shareImageAlt),
     `  <script type="application/ld+json">${JSON.stringify(graph).replaceAll('<','\\u003c')}</script>`
   ].join('\n');
-  const fallback=games.map(g=>`<article class="game-card" id="game-${g.id}" data-art-theme="${escape(g.theme)}"><div class="cover-wrap"><a class="cover-link" href="#about" aria-label="${escape(g.name)}: about RTP">${g.thumbnail?`<img class="game-art" src="${escape(g.thumbnail)}" alt="${escape(g.name)} game cover" width="320" height="320" loading="lazy" decoding="async">`:'<span class="static-no-image">Game cover</span>'}</a></div><div class="card-body"><span class="game-theme">${escape(g.theme)}</span><h3>${escape(g.name)}</h3><span class="static-update-label">Daily list · update at 12 PM IST</span></div></article>`).join('\n');
+  const fallback=preview.map(g=>`<article class="game-card" id="game-${g.id}" data-art-theme="${escape(g.theme)}"><div class="cover-wrap"><a class="cover-link" href="#about" aria-label="${escape(g.name)}: about RTP">${g.thumbnail?`<img class="game-art" src="${escape(g.thumbnail)}" alt="${escape(g.name)} game cover" width="320" height="320" loading="lazy" decoding="async">`:'<span class="static-no-image">Game cover</span>'}</a></div><div class="card-body"><span class="game-theme">${escape(g.theme)}</span><h3>${escape(g.name)}</h3><span class="static-update-label">Daily list · update at 12 PM IST</span></div></article>`).join('\n');
   const sitemap=`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>${escape(canonical)}</loc></url></urlset>\n`;
   const robots=`User-agent: *\nAllow: /\n${config.allowIndexing?'\nSitemap: '+new URL('sitemap.xml',canonical).href+'\n':''}`;
   return{canonical,image,head,fallback,sitemap,robots,graph};
@@ -45,8 +47,8 @@ export async function writeSeo(raw){
   html=html.replace(/<!-- SEO:START -->[\s\S]*?<!-- SEO:END -->/,`<!-- SEO:START -->\n${seo.head}\n  <!-- SEO:END -->`);
   html=html.replace(/<!-- GAME_LIST:START -->[\s\S]*?<!-- GAME_LIST:END -->/,`<!-- GAME_LIST:START -->\n${seo.fallback}\n      <!-- GAME_LIST:END -->`);
   html=html.replace(/<html\s[^>]*>/,`<html lang="${escape(config.language)}" prefix="og: https://ogp.me/ns#">`);
-  for(const id of ['intro-count','total-games'])html=html.replace(new RegExp(`(id="${id}">)[^<]*`),(_match,prefix)=>prefix+catalog.games.length);
-  html=html.replace(/(class="collection-count">)[^<]*/,(_match,prefix)=>prefix+catalog.games.length);
+  for(const id of ['intro-count','total-games'])html=html.replace(new RegExp(`(id="${id}">)[^<]*`),(_match,prefix)=>prefix+Math.min(TOP_GAME_COUNT,catalog.games.length));
+  html=html.replace(/(class="collection-count">)[^<]*/,(_match,prefix)=>prefix+Math.min(TOP_GAME_COUNT,catalog.games.length));
   await writeFile('index.html',html);
   await writeFile('robots.txt',seo.robots);
   await writeFile('sitemap.xml',seo.sitemap);

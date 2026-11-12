@@ -15,10 +15,12 @@ test('canonical and sharing metadata use the intended Indian site and locale',()
  assert.ok(seo.head.includes('index, follow, max-image-preview:large'));
  assert.ok(!seo.head.includes('noindex'));
 });
-test('crawlable game list and structured data grow from games.json, with safe text escaping',()=>{
- const games=[...catalog.games,{id:'extra-game',name:'Extra <Game> & Friends',theme:'Adventure',thumbnail:null}];
+test('crawlable preview and structured data stay capped at ten, with safe text escaping',()=>{
+ const games=[{id:'extra-game',name:'Extra <Game> & Friends',theme:'Adventure',thumbnail:null},...catalog.games];
  const seo=createSeo(config,games);
- assert.equal(seo.graph['@graph'].find(x=>x['@type']==='ItemList').numberOfItems,games.length);
+ assert.equal(seo.graph['@graph'].find(x=>x['@type']==='ItemList').numberOfItems,10);
+ assert.equal((seo.fallback.match(/<article/g)||[]).length,10);
+ assert.ok(!seo.fallback.includes('id="game-'+games[10].id+'"'));
  assert.ok(seo.fallback.includes('id="game-extra-game"'));
  assert.ok(seo.fallback.includes('Extra &lt;Game&gt; &amp; Friends'));
  assert.ok(!seo.fallback.includes('Extra <Game>'));
@@ -43,11 +45,11 @@ test('delivered HTML contains game content and metadata without needing JavaScri
  assert.equal((html.match(/<title>/g)||[]).length,1);
  assert.equal((html.match(/rel="canonical"/g)||[]).length,1);
  assert.ok(html.includes('<h1 id="hero-title">Jaiho91<br><span>RTP today.</span></h1>'));
- assert.equal((html.match(/<article class="game-card" id="game-/g)||[]).length,catalog.games.length);
+ assert.equal((html.match(/<article class="game-card" id="game-/g)||[]).length,10);
  assert.ok(!html.includes('One fresh ranking'));
  assert.ok(!html.includes('A fresh perspective'));
  assert.ok(!/\bdemo\b/i.test(html));
  assert.ok(html.includes('The percentages currently shown are generated placeholders.'));
  const data=JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
- assert.equal(data['@graph'].find(x=>x['@type']==='ItemList').numberOfItems,catalog.games.length);
+ assert.equal(data['@graph'].find(x=>x['@type']==='ItemList').numberOfItems,10);
 });

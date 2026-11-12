@@ -45,6 +45,7 @@ const BASELINE_IDS=Object.freeze([
 
 // Source: core.js
 // Asia/Kolkata has a fixed UTC+05:30 offset. Noon IST = 06:30 UTC.
+const TOP_GAME_COUNT = 10;
 const DAY_MS = 86_400_000;
 const RESET_UTC_MS = (6 * 60 + 30) * 60_000;
 
@@ -93,6 +94,14 @@ function rankGames(games, cycleKey) {
   return games.map(game => ({ ...game, basisPoints: demoBasisPoints(game.id, cycleKey) }))
     .sort((a, b) => b.basisPoints - a.basisPoints || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0))
     .map((game, i) => ({ ...game, rank: i + 1 }));
+}
+function rankFeaturedGames(games, cycleKey) {
+  const floor = 9701 + hash32(cycleKey + '|featured-floor') % 17;
+  return rankGames(games, cycleKey).slice(0, TOP_GAME_COUNT).map(game => ({
+    ...game,
+    // Preserve the seeded ranking while keeping each featured percentage above 97%.
+    basisPoints: floor + (TOP_GAME_COUNT - game.rank) * 8 + hash32(cycleKey + '|featured|' + game.id) % 7
+  }));
 }
 const percent = bp => (bp / 100).toFixed(2) + '%';
 function filterGames(games, query = '', theme = 'all', savedOnly = false, saved = new Set()) {
@@ -192,7 +201,7 @@ async function loadGameList({protocol,fetcher,localGames}){
 // Source: app.js
 const $ = selector => document.querySelector(selector);
 document.querySelectorAll('[data-icon]').forEach(element => element.innerHTML = icon(element.dataset.icon));
-let catalog, ranked = [], cycle, clock, limit = 36, theme = 'all', savedOnly = false, dialogGameId;
+let catalog, ranked = [], cycle, clock, theme = 'all', savedOnly = false, dialogGameId;
 let saved;
 try { const parsed = JSON.parse(localStorage.getItem('jaiho91-saved-v1') || '[]'); saved = new Set(Array.isArray(parsed) ? parsed.filter(x => typeof x === 'string') : []); }
 catch { saved = new Set(); }
@@ -218,13 +227,14 @@ function renderLeaders() {
 }
 function render() {
   const filtered = filterGames(ranked, $('#search').value, theme, savedOnly, saved);
-  $('#games').innerHTML = filtered.slice(0,limit).map(card).join('');
+  $('#games').innerHTML = filtered.map(card).join('');
   $('#games').setAttribute('aria-busy','false');
   $('#empty').hidden = filtered.length > 0;
   $('#results-count').textContent = `${filtered.length} ${filtered.length === 1 ? 'game' : 'games'}`;
-  $('#shown-count').textContent = filtered.length ? `Showing ${Math.min(limit,filtered.length)} of ${filtered.length} games` : '';
-  $('#load-more').hidden = filtered.length <= limit;
-  $('#saved-count').textContent = [...saved].filter(id => catalog.games.some(g => g.id === id)).length;
+  $('#empty p').textContent = savedOnly
+    ? 'Saved games appear here when they are in today’s top 10.'
+    : 'Try another name or clear the filters.';
+  $('#saved-count').textContent = ranked.filter(game => saved.has(game.id)).length;
   $('#saved-filter').setAttribute('aria-pressed', savedOnly);
 }
 function renderDialog(id) {
@@ -236,24 +246,27 @@ function renderDialog(id) {
 function onCycle(nextCycle) {
   const changed = Boolean(cycle);
   cycle = nextCycle;
-  ranked = rankGames(catalog.games, cycle.key);
+  ranked = rankFeaturedGames(catalog.games, cycle.key);
+  const featuredThemes = [...new Set(ranked.map(game => game.theme))].sort();
+  if(!featuredThemes.includes(theme))theme='all';
+  $('.collection-count').textContent = ranked.length;
+  $('#total-games').textContent = ranked.length;
+  $('#intro-count').textContent = ranked.length;
+  $('#filters').innerHTML = ['all',...featuredThemes].map(item => '<button class="filter" data-theme="'+escape(item)+'" type="button" aria-pressed="'+(item === theme)+'">'+(item === 'all' ? 'All themes' : escape(item))+'</button>').join('');
   const date = new Intl.DateTimeFormat('en-IN', {timeZone:'Asia/Kolkata',day:'2-digit',month:'short',year:'numeric'}).format(cycle.start);
   $('#cycle-date').textContent = date + ' · 12 PM IST';
   $('#edition').textContent = 'IST / ' + new Intl.DateTimeFormat('en-IN', { timeZone:'Asia/Kolkata', day:'2-digit', month:'short' }).format(cycle.start).toUpperCase();
   renderLeaders(); render();
-  if ($('#game-dialog').open) renderDialog(dialogGameId);
+  if ($('#game-dialog').open) {
+    if(ranked.some(game => game.id === dialogGameId))renderDialog(dialogGameId);
+    else $('#game-dialog').close();
+  }
   if (changed) $('#announcer').textContent = 'The 12 PM IST update is ready. The game list and rankings have changed.';
 }
 function applyCatalog(raw) {
     const nextCatalog=normalizeGames(raw);
     catalog=nextCatalog;
     $('#error').hidden=true;
-    if(!catalog.themes.includes(theme))theme='all';
-    limit=36;
-    $('.collection-count').textContent = catalog.games.length;
-    $('#total-games').textContent = catalog.games.length;
-    $('#intro-count').textContent = catalog.games.length;
-    $('#filters').innerHTML = ['all',...catalog.themes].map(item => `<button class="filter" data-theme="${escape(item)}" type="button" aria-pressed="${item === theme}">${item === 'all' ? 'All games' : escape(item)}</button>`).join('');
     clock?.stop();
     clock = createCycleClock({ onCycle, onTick: (c,time) => {
       $('#countdown').textContent = countdown(c.end,time);
@@ -278,21 +291,16 @@ async function init() {
   }
 }
 $('#retry').addEventListener('click',init);
-$('#search').addEventListener('input',() => {limit = 36;if(catalog)render();});
+$('#search').addEventListener('input',() => {if(catalog)render();});
 $('#filters').addEventListener('click',event => {
   const target = event.target.closest('[data-theme]'); if (!target) return;
-  theme = target.dataset.theme; limit = 36;
+  theme = target.dataset.theme;
   document.querySelectorAll('[data-theme]').forEach(button => button.setAttribute('aria-pressed',button === target)); render();
 });
-$('#saved-filter').addEventListener('click',() => { savedOnly = !savedOnly; limit = 36; if(catalog) render(); });
+$('#saved-filter').addEventListener('click',() => { savedOnly = !savedOnly; if(catalog) render(); });
 $('#clear-filters').addEventListener('click',() => {
-  theme = 'all'; savedOnly = false; limit = 36; $('#search').value = '';
+  theme = 'all'; savedOnly = false; $('#search').value = '';
   document.querySelectorAll('[data-theme]').forEach(button => button.setAttribute('aria-pressed',button.dataset.theme === 'all')); render(); $('#search').focus();
-});
-$('#load-more').addEventListener('click',() => {
-  const currentCount = $('#games').children.length;
-  limit += 36; render();
-  $('#games').children[currentCount]?.querySelector('.game-title')?.focus();
 });
 document.addEventListener('click',event => {
   const save = event.target.closest('[data-save]');

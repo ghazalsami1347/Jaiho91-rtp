@@ -1,4 +1,5 @@
 // Asia/Kolkata has a fixed UTC+05:30 offset. Noon IST = 06:30 UTC.
+export const TOP_GAME_COUNT = 10;
 export const DAY_MS = 86_400_000;
 export const RESET_UTC_MS = (6 * 60 + 30) * 60_000;
 import { BASELINE_IDS } from './seed-ids.js';
@@ -47,6 +48,14 @@ export function rankGames(games, cycleKey) {
   return games.map(game => ({ ...game, basisPoints: demoBasisPoints(game.id, cycleKey) }))
     .sort((a, b) => b.basisPoints - a.basisPoints || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0))
     .map((game, i) => ({ ...game, rank: i + 1 }));
+}
+export function rankFeaturedGames(games, cycleKey) {
+  const floor = 9701 + hash32(cycleKey + '|featured-floor') % 17;
+  return rankGames(games, cycleKey).slice(0, TOP_GAME_COUNT).map(game => ({
+    ...game,
+    // Preserve the seeded ranking while keeping each featured percentage above 97%.
+    basisPoints: floor + (TOP_GAME_COUNT - game.rank) * 8 + hash32(cycleKey + '|featured|' + game.id) % 7
+  }));
 }
 export const percent = bp => (bp / 100).toFixed(2) + '%';
 export function filterGames(games, query = '', theme = 'all', savedOnly = false, saved = new Set()) {
